@@ -76,16 +76,26 @@ public class Exercise12 {
                 System.out.println("The square is: " + square); //shows the users the number 
             }
 
-        } while (num != 0);//checks again if the number is not 0
+        } while (num != 0);//checks again if the number is not 0 if it is 0 then it does the next line 
 
         System.out.println("Program ended.");
-        input.close();
+        input.close(); //ends 
 
         //mcq
         //question 1
+        //D because the adding needs to be after the body 
+
         //question 2
+        //D becase the loop doesnt go to the z++ ever and doesnt make z go up making the loop repeat 
+        
         //question 3
+        //A because the loop keeps skipping p and then when it does it eventually makes p = 0
+
         //question 4
+        //E it only does it once because no matter what b is it is an or statement meaning only 1 needs to be true and because there is only 2 inputs one is going to be true making the next line "break" happen which breaks the code
+
         //question 5
+        //E because a do-while does the operation then checks 
+
     }
 }
